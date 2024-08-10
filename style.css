@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    height: 350px;
+    width: 400px;
+}
+
+#button{
+    height: 40px;
+    background-color: palegreen;
+    border: 1px solid darkgreen;
+}
+
+#button:hover{
+    box-shadow: 0px 0px 20px -7px;
+    transition: 0.3s;
+}
